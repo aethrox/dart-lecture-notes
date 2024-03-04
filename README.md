@@ -36,6 +36,86 @@ print("Num 4 is $num4");
 print("Sum is $sum");
 ```
 
+## Operatörler
+
+**1. Aritmetik Operatörler:**
+
+* `+`: Toplama
+* `-`: Çıkarma
+* `*`: Çarpma
+* `/`: Bölme
+* `%`: Modül alma
+* `~/`: Tamsayı bölme
+
+**2. Atama Operatörleri:**
+
+* `=`: Atama
+* `+=`: Toplama ve atama
+* `-=`: Çıkarma ve atama
+* `*=`: Çarpma ve atama
+* `/=`: Bölme ve atama
+* `%=`: Modül alma ve atama
+
+**3. Karşılaştırma Operatörleri:**
+
+* `==`: Eşitlik
+* `!=`: Eşitsizlik
+* `<`: Küçükse
+* `<=`: Küçükse veya eşitse
+* `>`: Büyükse
+* `>=`: Büyükse veya eşitse
+
+**4. Mantıksal Operatörler:**
+
+* `&&`: Ve
+* `||`: Veya
+* `!`: Değil
+
+**5. String Operatörleri:**
+
+* `+`: Birleştirme
+* `[]`: Karakter erişimi
+* `length`: Uzunluk alma
+* `isEmpty`: Boş olup olmadığını kontrol etme
+* `isNotEmpty`: Boş olmadığını kontrol etme
+
+**6. Liste Operatörleri:**
+
+* `[]`: Eleman erişimi
+* `add`: Ekleme
+* `remove`: Kaldırma
+* `length`: Uzunluk alma
+* `isEmpty`: Boş olup olmadığını kontrol etme
+* `isNotEmpty`: Boş olmadığını kontrol etme
+
+**7. Diğer Operatörler:**
+
+* `?:`: Koşullu operatör
+* `as`: Tür dönüştürme
+* `is`: Tür kontrolü
+* `..`: Cascade operatörü
+* `=>`: Lambda operatörü
+
+### Ek olarak -expr operatörü (Bir sayının negatifini alma)
+
+```dart
+void main() {
+  var number = 5;
+  var negativeNumber = -number; // negativeNumber = -5
+
+  print(negativeNumber); // -5 yazdırılır.
+
+  var expression = 2 + 3;
+  var negativeExpression = -expression; // negativeExpression = -5
+
+  print(negativeExpression); // -5 yazdırılır.
+}
+
+```
+
+---
+
+
 ## Ön Ek İşleçleri
 
 ```dart
