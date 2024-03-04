@@ -71,3 +71,28 @@ void main() {
   print("List after removing element : ${list}");
 }
 ```
+
+Liste içerisindeki ilk öğeyi bulmak
+
+```dart
+void main() {
+  List<int> numbers = [1, 2, 3, 4, 5];
+
+  // İlk çift sayıyı bul
+  int firstEvenNumber = numbers.firstWhere((number) => number % 2 == 0);
+
+  print(firstEvenNumber); // 2
+
+  // 4'ten büyük ilk sayıyı bul
+  int firstNumberGreaterThan4 = numbers.firstWhere((number) => number > 4);
+
+  print(firstNumberGreaterThan4); // 5
+
+  // Eşleşen bir öğe yoksa orElse fonksiyonunu çalıştır
+  String? firstLetter = numbers.firstWhere((number) => number.isLetter, orElse: () => "Sayısal bir listede harf bulunamadı");
+
+    // String tipinin önüne gelen "?" işaret değişkenin null değeri alabileceğininde anlamınada gelir.
+
+  print(firstLetter); // Sayısal bir listede harf bulunamadı
+}
+```
