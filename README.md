@@ -96,3 +96,38 @@ void main() {
   print(firstLetter); // Sayısal bir listede harf bulunamadı
 }
 ```
+
+const ve final
+
+```dart
+void main() {
+  // Final
+
+  final String name = "Bard"; // Değer derleme zamanında atanır ve değiştirilemez.
+
+  // Const
+
+  const String greeting = "Merhaba, $name!"; // Değer derleme zamanında atanır ve değiştirilemez.
+
+  // Final ve Const Farkı
+
+  print(name); // "Bard" yazdırılır.
+
+  //name = "John"; // Hata: Değiştirilemez.
+
+  print(greeting); // "Merhaba, Bard!" yazdırılır.
+
+  // const ile oluşturulan bir değişkenin değeri, yeni bir değişkene atanabilir.
+
+  const int number = 10;
+  final newNumber = number;
+
+  print(newNumber); // 10 yazdırılır.
+
+  // const ile oluşturulan bir değişkenin değeri değiştirilemez.
+
+  //number = 20; // Hata: Değiştirilemez.
+
+  // ÖNEMLİ FARK: "name" değişkeni derleme zamanında atanırken, "greeting" değişkeni derleme zamanında hesaplanır.
+}
+```
