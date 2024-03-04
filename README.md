@@ -1,6 +1,6 @@
 Kodlar:
 
-Değişkenler
+## Değişkenler
 
 ```dart
 void main() {
@@ -20,7 +20,7 @@ var friends = {'Ahmet': 19, 'Mehmet': 20, 'Ali': 21, 'Veli': 22, 'Ayşe': 23};
 }
 ```
 
-Veri Tipleri
+## Veri Tipleri
 
 ```dart
 int num1 = 100;
@@ -36,7 +36,7 @@ print("Num 4 is $num4");
 print("Sum is $sum");
 ```
 
-Ön Ek İşleçleri
+## Ön Ek İşleçleri
 
 ```dart
 void main() {
@@ -52,7 +52,7 @@ void main() {
   }
 ```
 
-İki string birleştirme
+## İki string birleştirme
 
 ```dart
 var name = "Ahmet";
@@ -61,7 +61,7 @@ var surnname = "Birkan";
 print(name + " " + surname)
 ```
 
-Listeden eleman silme
+## Listeden eleman silme
 
 ```dart
 void main() {
@@ -72,7 +72,7 @@ void main() {
 }
 ```
 
-Liste içerisindeki ilk öğeyi bulmak
+## Liste içerisindeki ilk öğeyi bulmak
 
 ```dart
 void main() {
@@ -97,7 +97,7 @@ void main() {
 }
 ```
 
-const ve final
+## const ve final
 
 ```dart
 void main() {
