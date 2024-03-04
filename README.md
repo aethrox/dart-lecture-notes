@@ -1,5 +1,3 @@
-Kodlar:
-
 ## Değişkenler
 
 ```dart
