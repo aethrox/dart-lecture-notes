@@ -36,7 +36,9 @@ print("Num 4 is $num4");
 print("Sum is $sum");
 ```
 
-## Operatörler
+
+<details>
+    <summary> <b>Operatörler</b> </summary>
 
 **1. Aritmetik Operatörler:**
 
@@ -112,8 +114,7 @@ void main() {
 }
 
 ```
-
----
+</details>
 
 
 ## Ön Ek İşleçleri
