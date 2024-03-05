@@ -56,10 +56,14 @@ void main() {
 İki string birleştirme
 
 ```dart
-var name = "Ahmet";
-var surnname = "Birkan";
+void main() {
+  var name = "Ahmet";
+  var surnname = "Birkan";
 
-print(name + " " + surname)
+  print(name + " " + surname)
+
+  }
+
 ```
 
 Listeden eleman silme
