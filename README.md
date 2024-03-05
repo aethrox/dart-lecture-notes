@@ -32,8 +32,7 @@ num  num4 = 50.4;
 print("Num 1 is $num1");
 print("Num 2 is $num2");  
 print("Num 3 is $num3");  
-print("Num 4 is $num4");  
-print("Sum is $sum");
+print("Num 4 is $num4");
 ```
 
 Ön Ek İşleçleri
