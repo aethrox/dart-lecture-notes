@@ -1,4 +1,6 @@
-## Değişkenler
+Kodlar:
+
+Değişkenler
 
 ```dart
 void main() {
@@ -18,9 +20,10 @@ var friends = {'Ahmet': 19, 'Mehmet': 20, 'Ali': 21, 'Veli': 22, 'Ayşe': 23};
 }
 ```
 
-## Veri Tipleri
+Veri Tipleri
 
 ```dart
+void main() {
 int num1 = 100;
 double num2 = 100.1;
 // hem int hemde float tipleri "num"un alt türleridir.
@@ -31,90 +34,10 @@ print("Num 1 is $num1");
 print("Num 2 is $num2");  
 print("Num 3 is $num3");  
 print("Num 4 is $num4");
-```
-
-
-<details>
-    <summary> <b>Operatörler</b> </summary>
-
-**1. Aritmetik Operatörler:**
-
-* `+`: Toplama
-* `-`: Çıkarma
-* `*`: Çarpma
-* `/`: Bölme
-* `%`: Modül alma
-* `~/`: Tamsayı bölme
-
-**2. Atama Operatörleri:**
-
-* `=`: Atama
-* `+=`: Toplama ve atama
-* `-=`: Çıkarma ve atama
-* `*=`: Çarpma ve atama
-* `/=`: Bölme ve atama
-* `%=`: Modül alma ve atama
-
-**3. Karşılaştırma Operatörleri:**
-
-* `==`: Eşitlik
-* `!=`: Eşitsizlik
-* `<`: Küçükse
-* `<=`: Küçükse veya eşitse
-* `>`: Büyükse
-* `>=`: Büyükse veya eşitse
-
-**4. Mantıksal Operatörler:**
-
-* `&&`: Ve
-* `||`: Veya
-* `!`: Değil
-
-**5. String Operatörleri:**
-
-* `+`: Birleştirme
-* `[]`: Karakter erişimi
-* `length`: Uzunluk alma
-* `isEmpty`: Boş olup olmadığını kontrol etme
-* `isNotEmpty`: Boş olmadığını kontrol etme
-
-**6. Liste Operatörleri:**
-
-* `[]`: Eleman erişimi
-* `add`: Ekleme
-* `remove`: Kaldırma
-* `length`: Uzunluk alma
-* `isEmpty`: Boş olup olmadığını kontrol etme
-* `isNotEmpty`: Boş olmadığını kontrol etme
-
-**7. Diğer Operatörler:**
-
-* `?:`: Koşullu operatör
-* `as`: Tür dönüştürme
-* `is`: Tür kontrolü
-* `..`: Cascade operatörü
-* `=>`: Lambda operatörü
-
-### Ek olarak -expr operatörü (Bir sayının negatifini alma)
-
-```dart
-void main() {
-  var number = 5;
-  var negativeNumber = -number; // negativeNumber = -5
-
-  print(negativeNumber); // -5 yazdırılır.
-
-  var expression = 2 + 3;
-  var negativeExpression = -expression; // negativeExpression = -5
-
-  print(negativeExpression); // -5 yazdırılır.
 }
-
 ```
-</details>
 
-
-## Ön Ek İşleçleri
+Ön Ek İşleçleri
 
 ```dart
 void main() {
@@ -130,7 +53,7 @@ void main() {
   }
 ```
 
-## İki string birleştirme
+İki string birleştirme
 
 ```dart
 var name = "Ahmet";
@@ -139,7 +62,7 @@ var surnname = "Birkan";
 print(name + " " + surname)
 ```
 
-## Listeden eleman silme
+Listeden eleman silme
 
 ```dart
 void main() {
@@ -150,7 +73,7 @@ void main() {
 }
 ```
 
-## Liste içerisindeki ilk öğeyi bulmak
+Liste içerisindeki ilk öğeyi bulmak
 
 ```dart
 void main() {
@@ -172,40 +95,5 @@ void main() {
     // String tipinin önüne gelen "?" işaret değişkenin null değeri alabileceğininde anlamınada gelir.
 
   print(firstLetter); // Sayısal bir listede harf bulunamadı
-}
-```
-
-## const ve final
-
-```dart
-void main() {
-  // Final
-
-  final String name = "Bard"; // Değer derleme zamanında atanır ve değiştirilemez.
-
-  // Const
-
-  const String greeting = "Merhaba, $name!"; // Değer derleme zamanında atanır ve değiştirilemez.
-
-  // Final ve Const Farkı
-
-  print(name); // "Bard" yazdırılır.
-
-  //name = "John"; // Hata: Değiştirilemez.
-
-  print(greeting); // "Merhaba, Bard!" yazdırılır.
-
-  // const ile oluşturulan bir değişkenin değeri, yeni bir değişkene atanabilir.
-
-  const int number = 10;
-  final newNumber = number;
-
-  print(newNumber); // 10 yazdırılır.
-
-  // const ile oluşturulan bir değişkenin değeri değiştirilemez.
-
-  //number = 20; // Hata: Değiştirilemez.
-
-  // ÖNEMLİ FARK: "name" değişkeni derleme zamanında atanırken, "greeting" değişkeni derleme zamanında hesaplanır.
 }
 ```
