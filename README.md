@@ -122,7 +122,7 @@ Liste de ki elemana erişmek
 
 ```dart
 void main() {
-  print(weekend.elementAt(0)); // küme de ki elementlere erişmek için "elementAdd()" kullanılır
+  print(weekend.elementAt(0)); // küme de ki elementlere erişmek için "elementAt()" kullanılır
 
 }
 ```
