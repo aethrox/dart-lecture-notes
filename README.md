@@ -135,3 +135,18 @@ var find = "cumartesi";
     print("$find kümesinde yer alıyor.");
 ```
 
+4. Hafta Video :
+
+```dart
+- 16:00
+
+- 19:12
+
+- 20:59
+
+- 46:11
+
+- 1:06:39
+
+- 1:20:05
+```
