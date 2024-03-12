@@ -112,10 +112,7 @@ void main() {
 
   days.addAll(weekday); // haftaiçi dizisinde ki elemanları "hafta içi dizisine" ekler
   days.addAll(weekend); // hafta sonu dizisinde ki elemanları "günler dizisine" ekler
-
-  print(weekend.elementAt(0)); // küme de ki elementlere erişmek için "elementAdd()" kullanılır
   }
-
 ```
 
 Liste de ki elemana erişmek
