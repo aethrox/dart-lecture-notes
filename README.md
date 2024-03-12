@@ -101,3 +101,37 @@ void main() {
   print(firstLetter); // Sayısal bir listede harf bulunamadı
 }
 ```
+
+Listeye eleman ekleme
+
+```dart
+void main() {
+  var weekend = {"cumartesi", "pazar"};
+
+  days.add("pazartesi"); // günler değişkenine pazartesi yi ekler
+
+  days.addAll(weekday); // haftaiçi dizisinde ki elemanları "hafta içi dizisine" ekler
+  days.addAll(weekend); // hafta sonu dizisinde ki elemanları "günler dizisine" ekler
+
+  print(weekend.elementAt(0)); // küme de ki elementlere erişmek için "elementAdd()" kullanılır
+  }
+
+```
+
+Liste de ki elemana erişmek
+
+```dart
+void main() {
+  print(weekend.elementAt(0)); // küme de ki elementlere erişmek için "elementAdd()" kullanılır
+
+}
+```
+
+Liste de ki elemanı arama
+
+```dart
+var find = "cumartesi";
+  if (days.contains(find)) { // günler içerisinde "cumartesi" var mı yok mu kontrol eder.
+    print("$find kümesinde yer alıyor.");
+```
+
