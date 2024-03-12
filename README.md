@@ -110,8 +110,8 @@ void main() {
 
   days.add("pazartesi"); // günler değişkenine pazartesi yi ekler
 
-  days.addAll(weekday); // haftaiçi dizisinde ki elemanları "hafta içi dizisine" ekler
-  days.addAll(weekend); // hafta sonu dizisinde ki elemanları "günler dizisine" ekler
+  days.addAll(weekday); // haftaiçi dizisinde ki elemanları "günler dizisine" ekler
+  days.addAll(weekend); // haftasonu dizisinde ki elemanları "günler dizisine" ekler
   }
 ```
 
