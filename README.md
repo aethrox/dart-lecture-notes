@@ -1,3 +1,14 @@
+Temel Terimler ve Tanım:
+###### Flutter nedir ?
+> ##### farklı mobil platformlarda (Ör: iOS ve Android) çalışabilen yerel uygulamalar üretebilen bir araçtır.
+<br>
+- lib: dart dosyasının bulunduğu klasör <br>
+- proje oluşturma : flutter create appName  <br>
+- proje çalıştırma : flutter run
+- test klasörü : projeleri test etmek için kullanılır
+
+<br>
+
 Kodlar:
 
 Değişkenler
