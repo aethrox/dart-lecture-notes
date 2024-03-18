@@ -115,12 +115,12 @@ void main() {
   }
 ```
 
-Liste de ki elemana erişmek
+Liste de ki elemana erişmek ve silmek
 
 ```dart
 void main() {
   print(weekend.elementAt(0)); // küme de ki elementlere erişmek için "elementAt()" kullanılır
-
+  weekend.removeAt(2); // haftalar içerisinde ki 2. elemanı siler
 }
 ```
 
@@ -132,18 +132,65 @@ var find = "cumartesi";
     print("$find kümesinde yer alıyor.");
 ```
 
-4. Hafta Video :
+4. Obje ifadelerinde key ve value değeri alma
 
 ```dart
-- 16:00
+void main() {
+  var elementler = {"H": "helyum", "Li" : "lityum"};
+  var simgeler = elementler.keys; // key değerini verir
+  var isimler = elementler.value; // value değerini verir
+  print(simgeler);
+}
+```
 
-- 19:12
+5. Uygulama -1
 
-- 20:59
+```dart
+enum cinsiyetler {disi, erkek};
 
-- 46:11
+class Hayvan {
+  int _yas;
+  
+  cinsiyetler cinsiyet;
+  
+  Hayvan(this._yas, this.cinsiyet);
 
-- 1:06:39
+  Hayvan.isimli({required yas, this.cinsiyet = cinsiyetler.erkek}) : _yas = yas;
 
-- 1:20:05
+  set yasBelirle(int yas) {
+    _yas = yas;
+  }
+
+  int get yasOgren {
+    return (_yas);
+  }
+
+  besle() {
+    print("yedim");
+  }
+
+  reporla() {
+    print("$_yas" "yaşındayım", "Cinsiyetim : $cinsiyet");
+  }
+}
+```
+
+6. Uygulama 1 Devamı :
+
+```dart
+import './hayvan.dart';
+
+void main() {
+  var kus = Hayvan(2, cinsiyetler.disi);
+  
+  kus.besle(); // yedim
+  kus.reporla(); // 2 yaşındayım cinsiyetim : cinsiyetler.disi
+
+  var kedi.yasBelirle = 3;
+  print(kedi.cinsiyet); // cinsiyetler.erkek
+  print(kedi.yasOgren); // 3
+  
+  kedi.raporla() // 3 yaşındayım, cinsiyetim: cinsiyetler.erkek
+
+}
 ```
