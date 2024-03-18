@@ -143,7 +143,7 @@ var find = "cumartesi";
     print("$find kümesinde yer alıyor.");
 ```
 
-4. Obje ifadelerinde key ve value değeri alma
+Obje ifadelerinde key ve value değeri alma
 
 ```dart
 void main() {
@@ -154,7 +154,7 @@ void main() {
 }
 ```
 
-5. Uygulama -1
+Uygulama 1
 
 ```dart
 enum cinsiyetler {disi, erkek};
@@ -186,7 +186,7 @@ class Hayvan {
 }
 ```
 
-6. Uygulama 1 Devamı :
+Uygulama 1 Devamı :
 
 ```dart
 import './hayvan.dart';
