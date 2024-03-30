@@ -4,7 +4,7 @@ Temel Terimler ve Tanım:
 <br>
 - lib: dart dosyasının bulunduğu klasör <br>
 - proje oluşturma : flutter create appName  <br>
-- proje çalıştırma : flutter run
+- proje çalıştırma : flutter run <br>
 - test klasörü : projeleri test etmek için kullanılır <br>
 
 <br>
