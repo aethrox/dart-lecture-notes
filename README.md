@@ -39,7 +39,7 @@ int num1 = 100;
 double num2 = 100.1;
 // hem int hemde float tipleri "num"un alt türleridir.
 num num3 = 50;
-num  num4 = 50.4;
+num num4 = 50.4;
 
 print("Num 1 is $num1");
 print("Num 2 is $num2");  
